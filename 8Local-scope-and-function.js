@@ -1,9 +1,11 @@
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions
 
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions
+
 function myLocalScope() {
 
     // Only change code below this line
-  
+    var myVar = "foo";
     console.log('inside myLocalScope', myVar);
   }
   myLocalScope();
